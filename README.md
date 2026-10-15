@@ -229,23 +229,7 @@ hrone-attendance-analytics-api/
 
 Do not commit `.env`, credentials, a virtual environment, data dumps, or a Dockerfile. Keep the application code in `app/main.py`, as requested by the candidate kit. The repository must be public, and its URL must be submitted using the method and by the deadline stated in the HROne assignment communication.
 
-## 10. Suggested Git commands
-
-Run from the project root after reviewing the files:
-
-```powershell
-git init
-git add app/main.py requirements.txt README.md REVIEW.md DECISIONS.md .gitignore
-git status
-git commit -m "Complete employee attendance analytics API assignment"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/hrone-attendance-analytics-api.git
-git push -u origin main
-```
-
-Create the public repository on GitHub first and replace the example remote URL with your own. If Git is already initialized or a remote already exists, inspect `git status` and `git remote -v` rather than initializing again or adding a duplicate remote blindly.
-
-## 11. Explaining the project in a review
+## 10. Explaining the project in a review
 
 A concise explanation you can adapt in your own words:
 
